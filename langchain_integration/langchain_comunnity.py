@@ -1,8 +1,8 @@
-# pip install langchain_community, pois o cache foi a comunidade quem fez
+# pip install langchain_community
 
 import os 
 from langchain_openai import OpenAI
-from langchain_community.cache import InMemoryCache, SQLiteCache
+from langchain_community.cache import SQLiteCache
 from langchain.globals import set_llm_cache
 os.environ['OPENAI_API_KEY'] = 'sk...'
 

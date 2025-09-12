@@ -1,4 +1,4 @@
-# pip install langchain_openai (realizar isso no terminal antes de começar a usar o langchain)
+# pip install langchain_openai 
 
 import os 
 from langchain_openai import OpenAI, ChatOpenAI
@@ -20,6 +20,7 @@ model = ChatOpenAI(
 )
 
 messages = [
+    
     {'role': 'system', 'content': 'Vocẽ é....'}
     {'role': 'user', 'content': 'Quem foi....'}
 ]
