@@ -1,4 +1,4 @@
-# exemplo de chamada usando geração de áudio
+# exemplo de chamada usando transcrição de áudio
 
 from openai import OpenAI
 
