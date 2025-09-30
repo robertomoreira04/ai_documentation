@@ -1,12 +1,51 @@
-Este repositório reúne minha documentação pessoal sobre **Inteligência Artificial (IA)**, funcionando como um guia de referência dos meus estudos, práticas e anotações.
+# 🧠 AI Documentation
 
-Além de servir como material de aprendizado, ele também pode ser utilizado como **portfólio**, demonstrando minhas habilidades e conhecimentos em IA por meio de exemplos de código, conceitos teóricos e projetos práticos.
+Repositório com exemplos e anotações sobre **Inteligência Artificial**, explorando diferentes bibliotecas e APIs.
 
-🔹 Conteúdo disponível neste repositório (em evolução):
+---
 
-- **Integração com APIs de IA**
-  - Uso básico da API da OpenAI
-- **RAG (Retrieval-Augmented Generation)**
-  - Implementação de fluxos para enriquecer respostas com dados externos
-- **LangChain**
-  - Integração e uso de cadeias para orquestrar modelos de linguagem
+## 📂 Conteúdo
+
+- 📌 **OpenAI** → uso básico da API  
+- 🔗 **LangChain** → cadeias, memória e RAG  
+- 📖 **RAG Integration** → recuperação de documentos + geração  
+- 🌍 **Deep Translator** → tradução automática  
+- 🖼️ **Pillow** → manipulação de imagens  
+- 🔊 **Text to Voice** → síntese de voz  
+
+---
+
+## 🚀 Como usar
+
+```bash
+# Clone o repositório
+git clone https://github.com/robertomoreira04/ai_documentation.git
+cd ai_documentation
+
+# Crie um ambiente virtual
+python -m venv venv
+source venv/bin/activate   # Linux / Mac
+venv\Scripts\activate      # Windows
+
+# Instale dependências
+pip install -r requirements.txt
+
+
+Depois, explore os exemplos em cada pasta.
+
+🛠️ Tecnologias
+
+OpenAI API
+
+LangChain
+
+Deep Translator
+
+Pillow
+
+TTS (ex: gTTS, pyttsx3)
+
+📌 Objetivo
+
+Centralizar estudos e práticas em IA de forma organizada e reutilizável.
+
