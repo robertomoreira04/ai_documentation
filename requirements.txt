@@ -1,0 +1,22 @@
+# Repositório AI Documentation - Dependências
+
+# OpenAI API
+openai>=0.27.0
+
+# LangChain
+langchain>=0.0.200
+
+# Deep Translator
+deep-translator>=1.9.0
+
+# Pillow
+pillow>=9.4.0
+
+# Text to Voice (gTTS)
+gTTS>=2.0.4
+
+# Ambiente de desenvolvimento
+python-dotenv>=1.0.0
+
+# Ferramentas de teste (opcional)
+pytest>=7.2.0
